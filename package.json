@@ -11,7 +11,6 @@
     "lint": "eslint --ext ts,tsx test"
   },
   "dependencies": {
-    "@fooxly/eslint-config": "https://github.com/Fooxly/eslint-config",
     "eslint-config-standard-jsx": "^10.0.0",
     "eslint-config-standard-react": "^11.0.1",
     "eslint-plugin-jest": "^26.1.4",
