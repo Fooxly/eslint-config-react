@@ -1,0 +1,16 @@
+{
+  "name": "@fooxly/eslint-config-react",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@fooxly/eslint-config": "git://github.com/Fooxly/eslint-config.git",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0"
+  }
+}

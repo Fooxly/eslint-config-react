@@ -1,0 +1,30 @@
+{
+	"plugins": [
+		"jest",
+        "react",
+		"react-hooks"
+	],
+	"extends": [
+        "@fooxly/eslint-config",
+        // --- Plugin Recommendations
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+		"plugin:jest/recommended",
+        // --- Standard
+        "standard-jsx",
+        "standard-react"
+	],
+	"parserOptions": {
+		"ecmaFeatures": {
+		    "jsx": true
+		}
+	},
+	"rules": {
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4]
+		// "react-hooks/exhaustive-deps": 0,
+		// "react-hooks/rules-of-hooks": 2,
+		// "react/jsx-handler-names": 0,
+		// "react/no-typos": 0,
+	}
+}
