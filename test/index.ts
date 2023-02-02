@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { useEffect, useState } from 'react';
 
-export function App (): number {
+export function App(): number {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
@@ -13,9 +13,7 @@ export function App (): number {
 }
 
 void (async () => {
-    const result = await fs.promises.readFile(
-        path.resolve(__dirname, './test.ts'),
-    );
+    const result = await fs.promises.readFile(path.resolve(__dirname, './test.ts'));
 
     console.log(result);
 });
