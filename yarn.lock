@@ -322,7 +322,7 @@
 
 "@fooxly/eslint-config@https://github.com/Fooxly/eslint-config":
   version "1.0.0"
-  resolved "https://github.com/Fooxly/eslint-config#ff643139199063aff6ef9c7ef094668e3048478e"
+  resolved "https://github.com/Fooxly/eslint-config#2ecdb6921fccd1c3b77a1bb1d89caa6f3b70cbd4"
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.50.0"
     "@typescript-eslint/parser" "^5.50.0"
